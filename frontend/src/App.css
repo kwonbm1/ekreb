@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App input {
+  width: 50%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid #61dafb;
+  border-radius: 5px;
+  /* margin-top: 10px;
+  margin-bottom: 10px; */
+}
+
+.App button {
+  padding: 15px 25px;
+  font-size: 20px;
+}
+
+.App .instruction {
+  font-size: 20px;
+}
+
+.App .new-word-button {
+  padding: 15px 25px;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.button-container button {
+  margin-right: 10px;
+}
+
+.time-left {
+  font-size: 20px;
+}
+
+.hint-button,
+.check-button,
+.new-word-button {
+  padding: 15px 25px;
+  font-size: 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hint-button {
+  background-color: #61dafb;
+  color: white;
+}
+
+.hint-button:hover {
+  background-color: #4fa3b3;
+}
+
+.check-button {
+  background-color: #5cb85c;
+  color: white;
+}
+
+.check-button:hover {
+  background-color: #4e9a4e;
+}
+
+.new-word-button {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.new-word-button:hover {
+  background-color: #d89b25;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.instruction {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.word-section {
+  margin-bottom: 20px;
+}
+
+.score {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.scrambled-word,
+.hint {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
